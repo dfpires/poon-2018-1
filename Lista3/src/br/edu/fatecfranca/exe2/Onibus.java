@@ -54,7 +54,12 @@ public class Onibus {
         return this.passageiros.contains(passageiro);
     }
     public int buscaPassageiro(int poltrona){
-        
+        for(Passageiro x : this.passageiros){
+            if (x.getPoltrona() == poltrona){
+                return this.passageiros.indexOf(x);
+            }
+        }
+        return -1;
     }
 }
 
