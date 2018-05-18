@@ -20,4 +20,7 @@ public class ContaPoupanca extends ContaCorrente{
         return super.toString() + "ContaPoupanca{" + 
                 "rendimento=" + rendimento + '}';
     }    
+    public void render(){
+        this.saldo = this.saldo + (this.saldo*this.rendimento)/100;
+    }
 }

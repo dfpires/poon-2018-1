@@ -12,6 +12,7 @@ public class Testa {
         ce1.setNome("Marcos");
         ce1.setNro(456);
         ce1.setSaldo(400);
+        ce1.saque(2000);
         System.out.println(ce1.toString());
         
 
@@ -20,6 +21,7 @@ public class Testa {
         cp1.setNome("Pedro");
         cp1.setNro(987);
         cp1.setSaldo(200);
+        cp1.render();
         System.out.println(cp1.toString());
 
         
