@@ -19,4 +19,12 @@ public class Cachorro extends Mamifero{
      public String fala(){
          return this.lateMuito ? "AU AU": "au au ";
      } 
+
+    @Override
+    public String toString() {
+        return "Cachorro{" + "lateMuito=" + lateMuito + 
+                super.toString() + '}';
+    }
+     
+     
 }

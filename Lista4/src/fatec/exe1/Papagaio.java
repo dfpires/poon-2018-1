@@ -19,4 +19,9 @@ public class Papagaio extends Passaro{
     public String fala(){
         return this.vocabulario;
     }
+    @Override
+    public String toString() {
+        return "Papagaio{" + "vocabulario=" + vocabulario + 
+                super.toString() + '}';
+    }
 }
